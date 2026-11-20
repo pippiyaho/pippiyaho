@@ -360,14 +360,12 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -.01em
   border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px;
 }
 
-.topic-badge[data-topic="아르헨티나 탱고"] { --tc: #a63a2c; }
+.topic-badge[data-topic="마을탱고"] { --tc: #a63a2c; }
 .topic-badge[data-topic="마더피스 타로"] { --tc: #6a5a92; }
 .topic-badge[data-topic="마을·지역·공동체"] { --tc: #6c773c; }
-.topic-badge[data-topic="예술·문화 감상"] { --tc: #2c6a70; }
-.topic-badge[data-topic="고양이·동물"] { --tc: #a9702b; }
+.topic-badge[data-topic="예술·문화"] { --tc: #2c6a70; }
+.topic-badge[data-topic="지구의 생명체"] { --tc: #a9702b; }
 .topic-badge[data-topic="여성·돌봄·사회"] { --tc: #8b4760; }
-.topic-badge[data-topic="일과 살롱"] { --tc: #7a6144; }
-.topic-badge[data-topic="여행·나들이"] { --tc: #436a8b; }
 .topic-badge[data-topic="일상·단상"] { --tc: #7c7367; }
 
 .card-text {
