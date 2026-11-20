@@ -97,10 +97,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -.01em
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-text strong { font-family: var(--serif); font-weight: 600; font-size: 17px; letter-spacing: .01em; }
-.brand-text em {
-  font-style: normal; font-size: 10px; letter-spacing: .22em; text-transform: uppercase;
-  color: var(--ink-faint);
-}
 .brand:hover .brand-mark { background: var(--accent-deep); }
 
 .tabs { display: flex; gap: 4px; }
@@ -739,7 +735,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -.01em
 }
 
 @media (max-width: 520px) {
-  .brand-text em { display: none; }
   .brand-text strong { font-size: 15.5px; }
   .brand-mark { width: 30px; height: 30px; font-size: 13px; }
   .tab { padding: 8px 12px; font-size: 13.5px; }

@@ -543,7 +543,7 @@
     }
     if (!opts.keepScroll) window.scrollTo({ top: 0, behavior: opts.smooth ? "smooth" : "auto" });
 
-    var titles = { timeline: "마담삐삐의 살롱 · 페이스북 아카이브", photos: "사진첩 · 마담삐삐의 살롱", about: "안내 · 마담삐삐의 살롱" };
+    var titles = { timeline: "마담삐삐의 살롱", photos: "사진첩 · 마담삐삐의 살롱", about: "안내 · 마담삐삐의 살롱" };
     document.title = titles[view];
     if (!opts.skipHash) syncHash();
   }
