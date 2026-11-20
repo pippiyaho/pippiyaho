@@ -1,5 +1,5 @@
 /* =========================================================
-   삐삐의 살롱 · 페이스북 아카이브
+   마담삐삐의 살롱 · 페이스북 아카이브
    데이터(archive-data.js)를 읽어 기록·사진첩을 그립니다.
    ========================================================= */
 (function () {
@@ -543,7 +543,7 @@
     }
     if (!opts.keepScroll) window.scrollTo({ top: 0, behavior: opts.smooth ? "smooth" : "auto" });
 
-    var titles = { timeline: "삐삐의 살롱 · 페이스북 아카이브", photos: "사진첩 · 삐삐의 살롱", about: "안내 · 삐삐의 살롱" };
+    var titles = { timeline: "마담삐삐의 살롱 · 페이스북 아카이브", photos: "사진첩 · 마담삐삐의 살롱", about: "안내 · 마담삐삐의 살롱" };
     document.title = titles[view];
     if (!opts.skipHash) syncHash();
   }
